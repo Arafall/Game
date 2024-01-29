@@ -4,7 +4,7 @@ public class Player {
     private String name;
     // Weapon object to hold data for attack method.
     private Weapon weapon;
-    private int health = 100;
+    private int health;
 
     // Class constructor.
     public Player(String name, Weapon weapon, int health) {

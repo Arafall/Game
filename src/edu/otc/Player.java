@@ -4,13 +4,13 @@ public class Player {
     private String name;
     // Weapon object to hold data for attack method.
     private Weapon weapon;
-    private int health;
+    private int health = 100;
 
     // Class constructor.
-    public Player(String name, Weapon weapon, int health) {
+    public Player(String name, Weapon weapon) {
         this.name = name;
         this.weapon = weapon;
-        this.health = health;
+        //this.health = health;
     }
 
     // Attack method applies damage to the player and returns a damage report string.
